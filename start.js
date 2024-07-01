@@ -150,7 +150,7 @@
 
 
 // AND && 
-const a = true, b = false;
+// const a = true, b = false;
 // const c = 4;
 // console.log(a && a); // true
 // console.log(a && b);  // false
@@ -180,7 +180,7 @@ const a = true, b = false;
 
 // 7.condition operator 
 let company = prompt('which company created javascript?');
-if(company == 'nestscape'){
+if(company == 'mai'){
   alert("you are right");
 }else{
   alert("you are wrong");
