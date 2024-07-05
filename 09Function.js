@@ -113,24 +113,24 @@ function showMessage() { */}
 
 
 
-let age = prompt('How old are you?', 18);
-function showMovie(age) {
-    if (!checkAge(age)) {
-        return;
-    }
+// let age = prompt('How old are you?', 18);
+// function showMovie(age) {
+//     if (!checkAge(age)) {
+//         return;
+//     }
 
-    alert("Showing you the movie"); // (*)
-    //   ...
-}
+//     alert("Showing you the movie"); // (*)
+//     //   ...
+// }
 
-showMovie(age)
-function checkAge(age) {
-    if (age >= 18) {
-        return true;
-    } else {
-        return confirm('Do you have permission from your parents?');
-    }
-}
+// showMovie(age)
+// function checkAge(age) {
+//     if (age >= 18) {
+//         return true;
+//     } else {
+//         return confirm('Do you have permission from your parents?');
+//     }
+// }
 
 // if (checkAge(age)) {
 //     alert('Access granted');
